@@ -6,7 +6,7 @@ import nltk
 # nltk.download('omw-1.4')
 
 
-Token='MTAyMzIzNTQ5NDA4OTMzODk1MQ.G1YjjJ.3Ff6GMaefem0X0Fh4RxirAntYnHY469vSdFKFM'
+Token='Keep your Token Here!'
 # client = discord.Client()
 client = discord.Client(intents=discord.Intents.default())
 
