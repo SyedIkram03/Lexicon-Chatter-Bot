@@ -1,0 +1,105 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["hello", "hey", "hi", "good day","Greetings","what's up?","how is it going?"],
+     "responses": ["Hello!", "Hey!", "What can i do for you?"]
+    },
+    
+    {"tag": "age,established",
+     "patterns": ["how old", "How old is IARE", "established"],
+     "responses": ["Our College is 22 year's old as it was established in 2000", "22 Year's old!", "I am 22 year's old!"]
+    },
+    {"tag": "indroduction",
+     "patterns": ["name", "what is your name", "i am"],
+     "responses": ["My name is IARE Bot, nice to meet you!", "I am IARE Virtual Assistant and I am a robot!", "It's me IARE virtual Assistant!"]
+    },
+    {"tag": "thanks",
+     "patterns": ["thank", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "hours",
+     "patterns": ["What hours are you open?", "What are your hours?", "When is IARE open?","working hours" ],
+     "responses": ["We're open every day 9am-6pm", "Our hours are 9am-6pm every day except weekend"]
+    },
+    {"tag": "payments",
+     "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?","cash and card payments" ],
+     "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+    },
+    {"tag": "opentoday",
+     "patterns": ["is IARE open today?", "When do you open today?", "What are your working hours?","today"],
+     "responses": ["We're open every day from 9am-6pm", "Our hours are 9am-6pm every day except weekend"]
+    },
+    {"tag": "placements",
+     "patterns": ["How are placements in IARE?", "Placements", "Placements in IARE","placement opportunities"],
+     "responses": ["Please visit site for upto date information-https://www.iare.ac.in/?q=pages/placements"]
+    },
+    {"tag": "Courses offered",
+     "patterns": ["What courses are offered in IARE?", "All courses in IARE", "what kind of courses IARE offers","departments in IARE","courses"],
+     "responses": ["We offers B.tech and M.tech courses in CSE,IT,MECH,ECE,EEE,CIVIL, and MBA programs for more visit-https://iare.ac.in/?q=pages/programmes and for departments visit-https://iare.ac.in/?q=Departments"]
+    },
+    {"tag": "location",
+     "patterns": ["where is IARE located?", "how far is IARE", "IARE location","location"],
+     "responses": ["IARE is located in Dundigal,Hyderabad,500043-MAP-http://shorturl.at/girv9"]
+    },
+    {"tag": "about",
+     "patterns": ["say me about IARE", "more about IARE", "information about IARE"],
+     "responses": ["Please visit-https://www.iare.ac.in/?q=pages/about-us"]
+    },
+    {"tag": "campus life",
+     "patterns": ["How is campus life at IARE?", "campus life in IARE", "student activities in IARE"],
+     "responses": ["Please visit-https://www.iare.ac.in/?q=pages/campus-life"]
+    },
+    {"tag": "facilities",
+     "patterns": ["facilities in IARE?", "infrastructure of IARE", "facilities"],
+     "responses": ["Please visit-https://www.iare.ac.in/?q=sitemap"]
+    },
+    {"tag": "appoinment",
+     "patterns": ["when can i book an appoinment in IARE?", "book my appoinment in IARE", "fix my appoinment in IARE","appoinment"],
+     "responses": ["Please fill details for booking an appoinment -https://iare.ac.in/appointmentform.html"]
+    },
+    {"tag": "phone",
+     "patterns": ["Phone directory", "call directory", "phone numbers","call","numbers"],
+     "responses": ["Principal:040-29709851 or 9703618753,\n Dean of Planning, Monitoring & Continuing Studies:9490244578,Dean of Academics:9703618749,Dean of Student Services:9966239198"]
+    },
+    {"tag": "events,clubs",
+     "patterns": ["what events are there in IARE", "what clubs are there in IARE", "events and clubs","co-curricular activities","fests","celebrations"],
+     "responses": ["Please visit-https://iare.ac.in/?q=pages/campus-life"]
+    },
+    {"tag": "structure ,facilities",
+    "patterns": ["students clubs","life skills","facilities","hostel facilities","food quality","what events are there in IARE", "what clubs are there in IARE", "events and clubs","co-curricular activities","fests","celebrations"],
+    "responses": ["Please visit-https://iare.ac.in/?q=pages/campus-life"]
+   },
+
+    
+    {"tag": "cutoff",
+     "patterns": ["what is Cutoff in IARE", "what cutoff is required for IARE", "what is EAMCET Cutoff in IARE","cutoff"],
+     "responses": ["Please visit-https://www.iare.ac.in/sites/default/files/Cut-Off_Ranks.pdf"]
+    },
+    
+    
+    {"tag": "admission",
+     "patterns": ["how is admission procedure in IARE", "admission in IARE", "admission in","admission process"," eligibility"],
+     "responses": ["Please visit for complete fee structure-https://iare.ac.in/?q=pages/fee-structure"]
+    },
+    {"tag": "fee structure",
+     "patterns": ["what is fee structure in IARE", "fee structure in IARE", "fee structure for CSE,IT,CIVIL,ECE ","fee structure for year in IARE","fee structure","payments"],
+     "responses": ["Please visit for complete fee structure-https://iare.ac.in/?q=pages/fee-structure"]
+    },
+    {"tag": "features",
+     "patterns": ["features of IARE", "features", "pros","salient features","fee structure","why study at iare"],
+     "responses": ["Please visit -https://iare.ac.in/?q=basicpage/salient-features"]
+    },
+    {"tag": "course details,B.tech,M.tech,MBA",
+     "patterns": ["courses details in IARE", "courses", "B.tech","M.tech","MBA"],
+     "responses": ["For B.tech courses-https://iare.ac.in/?q=Departments,For B.tech courses-https://iare.ac.in/?q=M.Tech-Programs,For MBA visit-https://iare.ac.in/?q=pages/master-of-business-administration"]
+    },
+    {"tag": "transport",
+     "patterns": ["transportation", "bus", "vehicles","college buses"],
+     "responses": ["Please visit -https://iare.ac.in/?q=basicpage/salient-features"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["See you later", "Goodbye","i am Leaving","Have a Good day","bye"],
+     "responses": ["Sad to see you go :(", "See you later", "Bye!.", "Goodbye"]
+    }
+   
+]
+}
